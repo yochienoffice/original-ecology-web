@@ -1,0 +1,11 @@
+.login-form-container {
+    margin-top: 5vw;
+    width: 50vw;
+    background-color: antiquewhite;
+}
+
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

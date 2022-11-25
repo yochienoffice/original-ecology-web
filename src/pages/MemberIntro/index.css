@@ -1,0 +1,99 @@
+.eco-memberintro-container {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 100vw;
+    height: auto;
+    flex-direction: column;
+    grid-gap: 0.5rem;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.eco-member-container {
+    width: 90vw;
+    height: 25vw;
+    background-color: rgb(240, 220, 232);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    
+    animation: rotateblock 5s linear;
+    
+}
+
+.intro-body {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    min-height: 100%;
+    background-color: pink;
+    flex: 1;
+}
+
+.intro-content {
+    flex: 4;
+    background-color: pink;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-bottom: 25vw solid whitesmoke;
+    border-left: 100px solid transparent;
+    border-right: 0px solid transparent;
+}
+
+.intro-content-right {
+    flex: 4;
+    background-color: pink;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-bottom: 25vw solid whitesmoke;
+    border-left: 0px solid transparent;
+    border-right: 100px solid transparent;
+}
+
+.circle {
+    position: relative;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    background-color: rgb(255, 228, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    background: url('../../images/intro.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    filter: brightness(1.5) contrast(0.5) grayscale(1.5);
+    animation: rotatelogo 20s linear;
+    
+}
+
+@keyframes rotatelogo {
+    from{ transform: rotate(0deg);}
+    to{ transform: rotate(360deg);}
+}
+
+@keyframes rotateblock {
+    from{ transform: rotate(0deg);}
+    to{ transform: rotateX(360deg);}
+}
+
+.text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* animation: rotatelogo 10s linear infinite; */
+}

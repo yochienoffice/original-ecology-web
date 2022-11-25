@@ -1,0 +1,120 @@
+.home-user {
+    color: blueviolet;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.home-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    background-color:aliceblue;
+}
+
+.home-marquee {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    background-color: antiquewhite;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    border-radius: 50PX;
+}
+
+.home-latestnews {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:darkseagreen;
+    flex-wrap: wrap;
+    grid-gap: 1vw;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    /* border: 1px solid transparent; */
+    border-radius: 50PX;
+}
+
+.home-workshop {
+    width: 90vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    background-color: dimgray;
+    flex-wrap: wrap;
+    grid-gap: 1vw;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    /* border: 1px solid transparent; */
+    border-radius: 50PX;
+}
+
+.home-newscard {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.home-workshop-title {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-left: 2.5vw;
+}
+
+.home-workshop-image {
+    width: 12.25%;
+    height: auto;
+    margin-left: 0.1em;
+}
+
+.home-workshop-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.top-to-btm{
+    position: relative;
+}
+
+.icon-position{
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    z-index: 20;
+}
+.icon-style{
+    background-color: #A11E2C;
+    border: 2px solid #fff;
+    border-radius: 10%;
+    height: 100px;
+    width: 100px;
+    color: #fff;
+    cursor: pointer;
+    animation: movebtn 1s ease-in-out infinite;
+    transition: all .5s ease-in-out;
+}
+.icon-style:hover{
+    animation: none;
+    background: #fff;
+    color: #A11E2C;
+    border: 2px solid #A11E2C;
+}
+@keyframes movebtn {
+    0%{
+      transform: translateY(0px);
+    }
+    50%{
+      transform: translateY(10px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+}

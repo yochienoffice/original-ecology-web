@@ -1,0 +1,8 @@
+.newscard-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 1vw;
+    justify-content: center;
+    align-items: center;
+}

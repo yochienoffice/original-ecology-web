@@ -1,0 +1,10 @@
+.app-container {
+    /* background: url("/src/images/mainBg.jpg"); */
+    background-repeat: round;
+    min-height: 100vh;
+    background-color: fff;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

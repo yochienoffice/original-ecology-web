@@ -1,0 +1,49 @@
+.newscard-container-default {
+    display: flex;
+    width: 20vw;
+    height: 25vw;
+    background-color: antiquewhite;
+    flex-direction: column;
+    /* border-radius: 50px;
+    border: 19px solid transparent; */
+}
+
+.newscard-container-square {
+    display: flex;
+    width: 83vw;
+    height: 25vw;
+    background-color: antiquewhite;
+    flex-direction: row;
+    border-radius: 50px;
+    border: 19px solid transparent;
+}
+
+.newscard-header {
+    background-color: rgb(171, 80, 69);
+    color: azure;
+}
+
+.newscard-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(195, 162, 158);
+}
+
+.newscard-image {
+    width: 20vw;
+    height: auto;
+    background-color: burlywood;
+}
+
+.newscard-content-de {
+    width: 20vw;
+    height: 100%;
+    background-color: pink;
+}
+
+.newscard-content-abb {
+    width: 63vw;
+    height: 100%;
+    background-color: palevioletred;
+}
+

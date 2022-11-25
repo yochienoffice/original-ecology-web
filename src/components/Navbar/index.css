@@ -1,0 +1,44 @@
+.nav-eco-container {
+    display: flex;
+    flex-direction: row;
+}
+.nav-eco-logo {
+    flex: 2;
+    width: 2.5em;
+}
+.nav-eco-title {
+    flex: 2;
+    margin-left: 0.5vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.nav-container {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    transition: .3s ease-in;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 12%);
+}
+
+.nav-container-scroll {
+    position: sticky;
+    top: 0;
+    background-color: transparent;
+    transition: .3s ease-in;
+}
+
+.nav-eco-tab {
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.dropdown-menu[data-bs-popper] {
+    left: -9vw;
+}
+
+.nav-eco-link {
+    flex-wrap: wrap;
+    grid-gap: 1.5vw;
+}
